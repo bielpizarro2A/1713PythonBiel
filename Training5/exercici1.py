@@ -11,6 +11,10 @@ def calcular_preu(preu1, preu2):
 resultat = calcular_preu(10, 20)    
 print("El preu total és:", resultat)
 
+# 1. Té 2 paràmetres (preu1 i preu2).
+# 2. Retorna la suma dels dos preus (la variable result, que en aquest exemple val 30).
+# 3. La funció no retornaria res (retornaria None) i el print mostraria: El preu total és: None
+
 # Exercici 2: Funció per aplicar un descompte segons el tipus de client:
 
 def aplicar_descompte(preu, tipus_client):
@@ -119,3 +123,9 @@ while opcio != "4":
 
     elif opcio == "4":
         print("Adéu!")
+
+# 4. print() només mostra text per pantalla; return envia el resultat al programa per guardar-lo o operar amb ell.
+# 5. Perquè el codi queda més ordenat, net i fàcil de corregir.
+# 6. És la informació que rep una funció entre parèntesis () per fer la seva feina.
+# 7. És una variable creada dins d'una funció que només existeix i es pot fer servir dins d'aquesta.
+# 8. Evita repetir codi i permet fer canvis en un sol lloc sense haver de modificar tot el programa.
